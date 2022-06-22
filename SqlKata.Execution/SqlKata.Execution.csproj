@@ -13,7 +13,7 @@
     <PackageTags>sql;query-builder;dynamic-query</PackageTags>
     <PackageReleaseNotes>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6/licence</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/mkolumb/querybuilder.git</RepositoryUrl>
