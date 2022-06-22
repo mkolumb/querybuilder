@@ -1,6 +1,7 @@
 name: .NET Core
 on:
   push:
+    branches: [feature/compiler-performance-net6]
   pull_request:
   release:
     types:
