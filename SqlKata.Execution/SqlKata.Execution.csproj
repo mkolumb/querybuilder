@@ -16,7 +16,7 @@
     <PackageLicenseUrl>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6/licence</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mkolumb/querybuilder.git</RepositoryUrl>
 
     <!-- SourceLink settings -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
