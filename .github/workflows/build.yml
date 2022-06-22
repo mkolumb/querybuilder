@@ -50,7 +50,7 @@ jobs:
         if: matrix.os == 'ubuntu-latest'
         run: |
           arrTag=(${GITHUB_REF//\// })
-          VERSION="${arrTag[2]}"
+          VERSION=git describe
           echo Version: $VERSION
           VERSION="${VERSION//v}-${GITHUB_RUN_ID}"
           echo Clean Version: $VERSION
@@ -59,7 +59,7 @@ jobs:
         if: matrix.os == 'ubuntu-latest'
         run: |
           arrTag=(${GITHUB_REF//\// })
-          VERSION="${arrTag[2]}"
+          VERSION=git describe
           echo Version: $VERSION
           VERSION="${VERSION//v}-${GITHUB_RUN_ID}"
           echo Clean Version: $VERSION
