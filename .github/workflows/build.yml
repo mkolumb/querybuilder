@@ -15,7 +15,7 @@ env:
   PROJECT_NAME: SqlKata.Net6
   DOTNET_VERSION: 6.0.300
   # GitHub Packages Feed settings
-  GITHUB_FEED: https://nuget.pkg.github.com/mkolumb/
+  GITHUB_FEED: https://nuget.pkg.github.com/mkolumb/index.json
   GITHUB_USER: mkolumb
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   # Official NuGet Feed settings
