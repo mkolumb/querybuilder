@@ -1,8 +1,8 @@
-using SqlKata.Compilers;
-using SqlKata.Tests.Infrastructure;
+using SqlKata.Net6.Compilers;
+using SqlKata.Net6.Tests.Infrastructure;
 using Xunit;
 
-namespace SqlKata.Tests.PostgreSql
+namespace SqlKata.Net6.Tests.PostgreSql
 {
     public class PostgreSqlLimitTests : TestSupport
     {

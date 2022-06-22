@@ -3,8 +3,9 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using SqlKata.Net6.Clauses;
 
-namespace SqlKata
+namespace SqlKata.Net6
 {
     public partial class Query : BaseQuery<Query>
     {

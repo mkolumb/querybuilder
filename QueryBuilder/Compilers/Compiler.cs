@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using SqlKata.Net6.Clauses;
 
-namespace SqlKata.Compilers
+namespace SqlKata.Net6.Compilers
 {
     public partial class Compiler
     {

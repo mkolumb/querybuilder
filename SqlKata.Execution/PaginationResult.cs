@@ -4,7 +4,7 @@ using System.Data;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SqlKata.Execution
+namespace SqlKata.Net6.Execution
 {
     public class PaginationResult<T>
     {

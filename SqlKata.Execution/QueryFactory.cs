@@ -7,9 +7,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using Dapper;
 using Humanizer;
-using SqlKata.Compilers;
+using SqlKata.Net6.Clauses;
+using SqlKata.Net6.Compilers;
 
-namespace SqlKata.Execution
+namespace SqlKata.Net6.Execution
 {
     public class QueryFactory : IDisposable
     {

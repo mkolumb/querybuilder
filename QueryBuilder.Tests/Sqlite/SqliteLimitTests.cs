@@ -1,8 +1,8 @@
-using SqlKata.Compilers;
-using SqlKata.Tests.Infrastructure;
+using SqlKata.Net6.Compilers;
+using SqlKata.Net6.Tests.Infrastructure;
 using Xunit;
 
-namespace SqlKata.Tests.Sqlite
+namespace SqlKata.Net6.Tests.Sqlite
 {
     public class SqliteLimitTests : TestSupport
     {

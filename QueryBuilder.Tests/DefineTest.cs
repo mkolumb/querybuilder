@@ -1,9 +1,9 @@
-using static SqlKata.Expressions;
-using SqlKata.Compilers;
-using SqlKata.Tests.Infrastructure;
+using SqlKata.Net6.Compilers;
+using SqlKata.Net6.Tests.Infrastructure;
 using Xunit;
+using static SqlKata.Net6.Expressions;
 
-namespace SqlKata.Tests
+namespace SqlKata.Net6.Tests
 {
     /// <summary>
     /// If you want to test this queries against a database use NorthWind database

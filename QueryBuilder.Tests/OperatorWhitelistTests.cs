@@ -1,8 +1,8 @@
 using System;
-using SqlKata.Compilers;
+using SqlKata.Net6.Compilers;
 using Xunit;
 
-namespace SqlKata.Tests
+namespace SqlKata.Net6.Tests
 {
     public class OperatorWhitelistTests
     {

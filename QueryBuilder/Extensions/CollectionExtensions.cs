@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SqlKata.Extensions
+namespace SqlKata.Net6.Extensions
 {
     public static class CollectionExtensions
     {

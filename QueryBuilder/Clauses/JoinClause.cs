@@ -1,6 +1,6 @@
 using System;
 
-namespace SqlKata
+namespace SqlKata.Net6.Clauses
 {
     public abstract class AbstractJoin : AbstractClause
     {

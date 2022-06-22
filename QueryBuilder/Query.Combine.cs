@@ -1,7 +1,7 @@
 using System;
-using System.Linq;
+using SqlKata.Net6.Clauses;
 
-namespace SqlKata
+namespace SqlKata.Net6
 {
     public partial class Query
     {

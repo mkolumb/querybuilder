@@ -2,7 +2,7 @@ using System.Collections;
 using System.Linq;
 using Xunit;
 
-namespace SqlKata.Tests
+namespace SqlKata.Net6.Tests
 {
     public class HelperTests
     {

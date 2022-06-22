@@ -1,9 +1,9 @@
 using System;
 using System.Data;
 using System.Linq;
-using SqlKata.Compilers;
+using SqlKata.Net6.Compilers;
 
-namespace SqlKata.Execution
+namespace SqlKata.Net6.Execution
 {
     public class XQuery : Query
     {

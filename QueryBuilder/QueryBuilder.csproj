@@ -5,19 +5,19 @@
     <Description>A powerful Dynamic Sql Query Builder supporting Sql Server, MySql, PostgreSql, Oracle and Firebird</Description>
     <Authors>Ahmad Moussawi</Authors>
     <Copyright>Copyright (c) 2017 Ahmad Moussawi</Copyright>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <RootNamespace>SqlKata</RootNamespace>
-    <AssemblyName>SqlKata</AssemblyName>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <RootNamespace>SqlKata.Net6</RootNamespace>
+    <AssemblyName>SqlKata.Net6</AssemblyName>
 
     <!-- NuGet settings -->
-    <PackageId>SqlKata</PackageId>
+    <PackageId>SqlKata.Net6</PackageId>
     <PackageTags>sql;query-builder;dynamic-query</PackageTags>
-    <PackageReleaseNotes>https://github.com/sqlkata/querybuilder</PackageReleaseNotes>
-    <PackageProjectUrl>https://github.com/sqlkata/querybuilder</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/sqlkata/querybuilder</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6</RepositoryUrl>
 
     <!-- SourceLink settings -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>

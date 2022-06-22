@@ -4,18 +4,19 @@
     <Description>Adds the execution capabilities for SqlKata</Description>
     <Authors>Ahmad Moussawi</Authors>
     <Copyright>Copyright (c) 2017 Ahmad Moussawi</Copyright>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <RootNamespace>SqlKata</RootNamespace>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <RootNamespace>SqlKata.Net6.Execution</RootNamespace>
+	  <AssemblyName>SqlKata.Net6.Execution</AssemblyName>
 
     <!-- NuGet settings -->
-    <PackageId>SqlKata.Execution</PackageId>
+    <PackageId>SqlKata.Net6.Execution</PackageId>
     <PackageTags>sql;query-builder;dynamic-query</PackageTags>
-    <PackageReleaseNotes>https://github.com/sqlkata/querybuilder</PackageReleaseNotes>
-    <PackageProjectUrl>https://github.com/sqlkata/querybuilder</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/sqlkata/querybuilder/licence</PackageLicenseUrl>
+    <PackageReleaseNotes>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6/licence</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/sqlkata/querybuilder</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mkolumb/querybuilder/tree/feature/compiler-performance-net6</RepositoryUrl>
 
     <!-- SourceLink settings -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -27,7 +28,7 @@
     <ProjectReference Include="..\QueryBuilder\QueryBuilder.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="dapper" Version="1.50.5" />
-    <PackageReference Include="Humanizer.Core" Version="2.8.26" />
+    <PackageReference Include="dapper" Version="2.0.123" />
+    <PackageReference Include="Humanizer.Core" Version="2.14.1" />
   </ItemGroup>
 </Project>

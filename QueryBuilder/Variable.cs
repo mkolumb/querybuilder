@@ -1,4 +1,4 @@
-namespace SqlKata
+namespace SqlKata.Net6
 {
     public class Variable
     {

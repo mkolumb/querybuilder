@@ -1,10 +1,10 @@
-using System.Collections.Generic;
 using System;
-using System.Threading.Tasks;
+using System.Collections.Generic;
 using System.Data;
 using System.Threading;
+using System.Threading.Tasks;
 
-namespace SqlKata.Execution
+namespace SqlKata.Net6.Execution
 {
     public static class QueryExtensions
     {

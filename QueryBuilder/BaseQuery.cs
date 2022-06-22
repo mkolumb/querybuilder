@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using SqlKata.Net6.Clauses;
 
-namespace SqlKata
+namespace SqlKata.Net6
 {
     public abstract class AbstractQuery
     {

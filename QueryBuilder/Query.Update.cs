@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
-using SqlKata.Extensions;
+using SqlKata.Net6.Clauses;
+using SqlKata.Net6.Extensions;
 
-namespace SqlKata
+namespace SqlKata.Net6
 {
     public partial class Query
     {

@@ -1,4 +1,4 @@
-namespace SqlKata.Compilers
+namespace SqlKata.Net6.Compilers
 {
     public class MySqlCompiler : Compiler
     {

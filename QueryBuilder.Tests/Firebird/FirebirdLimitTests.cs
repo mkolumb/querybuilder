@@ -1,8 +1,8 @@
-using SqlKata.Compilers;
-using SqlKata.Tests.Infrastructure;
+using SqlKata.Net6.Compilers;
+using SqlKata.Net6.Tests.Infrastructure;
 using Xunit;
 
-namespace SqlKata.Tests.Firebird
+namespace SqlKata.Net6.Tests.Firebird
 {
     public class FirebirdLimitTests : TestSupport
     {

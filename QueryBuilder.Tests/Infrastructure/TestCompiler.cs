@@ -1,8 +1,8 @@
 using System;
 using System.Reflection;
-using SqlKata.Compilers;
+using SqlKata.Net6.Compilers;
 
-namespace SqlKata.Tests.Infrastructure
+namespace SqlKata.Net6.Tests.Infrastructure
 {
     /// <summary>
     /// A test class to expose private methods

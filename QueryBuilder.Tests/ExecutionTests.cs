@@ -1,8 +1,8 @@
 using System;
-using SqlKata.Execution;
+using SqlKata.Net6.Execution;
 using Xunit;
 
-namespace SqlKata.Tests
+namespace SqlKata.Net6.Tests
 {
     public class ExecutionTests
     {

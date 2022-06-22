@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace SqlKata
+namespace SqlKata.Net6.Clauses
 {
     public abstract class AbstractInsertClause : AbstractClause
     {

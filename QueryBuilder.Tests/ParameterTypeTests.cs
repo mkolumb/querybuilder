@@ -1,12 +1,12 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
-using SqlKata.Compilers;
+using SqlKata.Net6.Compilers;
+using SqlKata.Net6.Tests.Infrastructure;
 using Xunit;
-using System.Collections;
-using SqlKata.Tests.Infrastructure;
 
-namespace SqlKata.Tests
+namespace SqlKata.Net6.Tests
 {
     public class ParameterTypeTests : TestSupport
     {

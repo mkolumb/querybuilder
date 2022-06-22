@@ -1,9 +1,8 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
+using SqlKata.Net6.Clauses;
 
-namespace SqlKata.Compilers
+namespace SqlKata.Net6.Compilers
 {
     public class OracleCompiler : Compiler
     {

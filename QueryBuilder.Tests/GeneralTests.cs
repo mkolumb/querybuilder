@@ -1,11 +1,12 @@
-using SqlKata.Compilers;
-using SqlKata.Extensions;
-using SqlKata.Tests.Infrastructure;
 using System;
 using System.Linq;
+using SqlKata.Net6.Clauses;
+using SqlKata.Net6.Compilers;
+using SqlKata.Net6.Extensions;
+using SqlKata.Net6.Tests.Infrastructure;
 using Xunit;
 
-namespace SqlKata.Tests
+namespace SqlKata.Net6.Tests
 {
     public class GeneralTests : TestSupport
     {

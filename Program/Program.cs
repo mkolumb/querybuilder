@@ -1,8 +1,5 @@
 using System;
 using System.Collections.Generic;
-using SqlKata;
-using SqlKata.Compilers;
-using SqlKata.Execution;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 using System.Linq;
@@ -11,8 +8,11 @@ using Npgsql;
 using System.Data;
 using Dapper;
 using System.Data.SQLite;
-using static SqlKata.Expressions;
+using static SqlKata.Net6.Expressions;
 using System.IO;
+using SqlKata.Net6;
+using SqlKata.Net6.Compilers;
+using SqlKata.Net6.Execution;
 
 namespace Program
 {

@@ -1,10 +1,10 @@
 using System;
 using System.Linq;
-using SqlKata.Compilers;
-using SqlKata.Tests.Infrastructure;
+using SqlKata.Net6.Compilers;
+using SqlKata.Net6.Tests.Infrastructure;
 using Xunit;
 
-namespace SqlKata.Tests
+namespace SqlKata.Net6.Tests
 {
     public class InfrastructureTests : TestSupport
     {

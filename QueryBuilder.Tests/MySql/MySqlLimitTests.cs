@@ -1,8 +1,8 @@
-using SqlKata.Compilers;
-using SqlKata.Tests.Infrastructure;
+using SqlKata.Net6.Compilers;
+using SqlKata.Net6.Tests.Infrastructure;
 using Xunit;
 
-namespace SqlKata.Tests.MySql
+namespace SqlKata.Net6.Tests.MySql
 {
     public class MySqlLimitTests : TestSupport
     {

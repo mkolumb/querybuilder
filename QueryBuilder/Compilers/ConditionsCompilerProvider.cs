@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace SqlKata.Compilers
+namespace SqlKata.Net6.Compilers
 {
     internal class ConditionsCompilerProvider
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SqlKata.Tests.Infrastructure
+namespace SqlKata.Net6.Tests.Infrastructure
 {
     public abstract class TestSupport
     {

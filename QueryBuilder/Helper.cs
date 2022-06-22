@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace SqlKata
+namespace SqlKata.Net6
 {
     public static class Helper
     {

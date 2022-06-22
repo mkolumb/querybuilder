@@ -1,6 +1,7 @@
 using System;
+using SqlKata.Net6.Clauses;
 
-namespace SqlKata
+namespace SqlKata.Net6
 {
     public class Join : BaseQuery<Join>
     {
