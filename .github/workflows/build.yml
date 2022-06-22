@@ -48,10 +48,10 @@ jobs:
         run: dotnet test -c Release
       - name: Pack QueryBuilder
         if: matrix.os == 'ubuntu-latest'
-        run: dotnet pack -v normal -c Release --no-restore --include-symbols --include-source -p:PackageVersion=$GITHUB_RUN_ID QueryBuilder/QueryBuilder.csproj
+        run: dotnet pack -v normal -c Release --no-restore --include-symbols --include-source QueryBuilder/QueryBuilder.csproj
       - name: Pack SqlKata.Net6.Execution
         if: matrix.os == 'ubuntu-latest'
-        run: dotnet pack -v normal -c Release --no-restore --include-symbols --include-source -p:PackageVersion=$GITHUB_RUN_ID SqlKata.Execution/SqlKata.Execution.csproj
+        run: dotnet pack -v normal -c Release --no-restore --include-symbols --include-source SqlKata.Execution/SqlKata.Execution.csproj
       - name: Upload QueryBuilder Artifact
         if: matrix.os == 'ubuntu-latest'
         uses: actions/upload-artifact@v2
@@ -66,7 +66,7 @@ jobs:
           path: ./SqlKata.Execution/bin/Release/*.nupkg
   prerelease:
     needs: build
-    if: github.ref == 'refs/heads/develop'
+    if: github.ref == 'refs/heads/feature/compiler-performance-net6'
     runs-on: ubuntu-latest
     steps:
       - name: Download Artifact
